@@ -1,0 +1,13 @@
+# main ignoring files for production. not important for webhosting.
+*.psd
+*.ai
+*.db
+# other marked files
+*.private.*
+*.afphoto
+
+raw
+
+# ignore old files
+*.old.*
+_old
