@@ -22,13 +22,14 @@
 /*        header, div, article, main, section, footer, a, span { background-color: rgba(255,0,0,0.05);}*/
         header, section, footer {margin-bottom: 1em;}
         header h1{ 
+            margin-top: -2.5rem;
             font-style:italic; 
             font-weight: 900; 
             font-size: 7rem; 
             text-align: right;
             
-            color: rgba(210,131,237,1);
-            text-shadow: 5vmin 0px 0px rgba(145,70,212,.33);
+            color: white;
+            text-shadow: 5vmin 0px 0px rgba(145,70,212,.66), 10vmin 0px 0px rgba(145,70,212,.33);
         }
         section h3 {text-transform: uppercase; text-align: center;}
         section img {max-width: 100%;}
@@ -73,21 +74,22 @@
         section .purple {color: #D283ED;}
         
         footer .ex-links {
-            display: inline-block;
+            display: block;
             font-size: 1.34em;
         }
         .ex-links h6 {font-weight: 300; font-size: 0.8rem; font-style:italic; text-decoration: underline; text-transform: uppercase; padding-bottom: 1rem; letter-spacing: .2em} 
+        .ex-links:hover a { margin: 0 .2rem; }
         .ex-links a, .ex-links a:active, .ex-links a:visited {
             display: inline-block; 
             margin: 0;
             color: white; 
             transform: rotateZ(0deg);
-            transition: 1s transform, 0.5s color;
+            transition: 1s transform, 0.5s color, 0.5s margin;
         }
         .ex-links a:hover, .ex-links a:focus {
             color: #9146D4;
             transform: rotateZ(-22deg);
-            transition: 0.5s transform, 0.5s color;
+            transition: 0.5s transform, 0.5s color, 0.5s margin;
         } 
         
         iconify-icon { margin-bottom:-.13em }
@@ -131,9 +133,10 @@
                     Each ticket purchase puts you into a raffle for a digital illustration prize. <br />There are 3 prizes:
                     <ul>
                         <li><span>SUPER RARE TICKET</span> : I evolve your ticket and do what I can to make it a finished piece</li>
-                        <li><span>LINE ART TICKET</span> : I use complete your ticket to a finished lineart.</li>
+                        <li><span>LINE ART TICKET</span> : I use complete your ticket to a finished lineart using my styled brush.</li>
                         <li><span>Chibi by <a href="https://twitter.com/lovelinalee"><iconify-icon icon="simple-icons:twitter"></iconify-icon>lovelinalee</a></span> : based on your ticket Lina will draw your chibi ! </li>
                     </ul>
+                    The raffle should be happening at the end of the stream. You'll be contacted through wherever I can find you (probably whatever you used on Ko-fi).
                 </div>
             </section>
             <section>
@@ -147,6 +150,7 @@
                     <a href="https://www.twitch.tv/automaticspirit" title="twitch"><iconify-icon icon="simple-icons:twitch"></iconify-icon></a>
                     <a href="https://www.twitter.com/azezaroo" title="twitter exit"><iconify-icon icon="simple-icons:twitter"></iconify-icon></a>
                     <a href="https://www.ko-fi.com/automaticspirit" title="ko-fi exit"><iconify-icon icon="simple-icons:kofi"></iconify-icon></a>
+                    <a href="https://discord.io/catsupontop" title="discord exit"><iconify-icon icon="simple-icons:discord"></iconify-icon></a>
                 </div>
             </footer>
         </article>
