@@ -13,147 +13,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
-    <!--    <link href="style.css" rel="stylesheet" />-->
-    <style type="text/css">
-        body, html, p, h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0;} /* zeroing */
-        html, body { font-family: 'Raleway', sans-serif; }
-        
-        body { background-color: #464649; color: white;}
-        h1 { text-transform: uppercase;}
-        a, a:visited {color: #9146D4}
-        a:focus, a:hover {color: white;}
-        
-        #container {  }
-        .boxx { max-width: 800px; margin-left:auto; margin-right: auto; }
-/*        header, div, article, main, section, footer, a, span { background-color: rgba(255,0,0,0.05);}*/
-        header, section, footer {margin-bottom: 1em;}
-        header h1{ 
-            margin-top: -2.5rem;
-            font-style:italic; 
-            font-weight: 900; 
-            font-size: 7rem; 
-            text-align: right;
-            
-            color: white;
-            text-shadow: 5vmin 0px 0px rgba(145,70,212,.66), 10vmin 0px 0px rgba(145,70,212,.33);
-        }
-        section h3 {text-transform: uppercase; text-align: center;}
-        section img {max-width: 100%;}
-        section img:hover {}
-        section {
-            background: #18181B; 
-            padding: 1em;
-            border-radius: .5em;
-        }
-        section>div {margin-bottom: 1em;}
-        footer {
-            padding-bottom: 1em; text-align: center;
-        }
-        .kofipush , .kofipush:visited {
-            display: block;
-            margin: 1em 0;
-            font-size: 1.4rem;
-            text-transform: uppercase;
-            text-decoration: none;
-            font-weight: 900; 
-            text-align: center;
-            color: #18181B;
-            background-color: #D283ED;
-            transition: .5s;
-        }
-        .kofipush:hover {display: block; color: #18181B;background-color: #9146D4;}
-        
-        #forward {}
-        #forward p {font-weight: 400; font-style:italic; }
-        #forward span {
-            display: block; text-align: center;
-        }
-        section .important {
-            border: 1px solid #9146D4 ;
-            padding: 0 1em 1em;
-            margin: 1em;
-        }
-        section #rewards {}
-        section #rewards ul {}
-        section #rewards li {list-style: square; margin: 1em 0;}
-        section #rewards span { font-weight: 700; text-transform: uppercase}
-        section .purple {color: #D283ED;}
-        
-        footer .ex-links {
-            display: block;
-            font-size: 1.34em;
-        }
-        .ex-links h6 {font-weight: 300; font-size: 0.8rem; font-style:italic; text-decoration: underline; text-transform: uppercase; padding-bottom: 1rem; letter-spacing: .2em} 
-        .ex-links:hover a { margin: 0 .2rem; }
-        .ex-links a, .ex-links a:active, .ex-links a:visited {
-            display: inline-block; 
-            margin: 0;
-            color: white; 
-            transform: rotateZ(0deg);
-            transition: 1s transform, 0.5s color, 0.5s margin;
-        }
-        .ex-links a:hover, .ex-links a:focus {
-            color: #9146D4;
-            transform: rotateZ(-22deg);
-            transition: 0.5s transform, 0.5s color, 0.5s margin;
-        } 
-        
-        iconify-icon { margin-bottom:-.13em }
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
         <header>
-            <div class="boxx">
+            <div class="-box">
                 <h1>Auto's 2022 Expedition Drive</h1>
             </div>
         </header>
-        <article class="boxx">
-            <section id="forward">
-                <p>
-                    Hello !<br />
-                    You made it ! I love drawing for friends and people I meet, and on the upcoming Catsup day stream (Friday September 3rd NZT) I'll be hosting a sketch-a-thon donation drive. This donation drive will be to sponsor mine and Catsup's upcoming merch, potential merch, and a well needed break this year. This will be an interesting experiment to see how viable this kind of event is for me in the future too. So if you're interested in supporting my art, and my future endevours, let me know by participating I'd really appreciate it, thank you !<br /> Instructions about the process below.
-                    <span>&mdash; automaticspirit</span>
-                </p>
-            </section>
+        <main class="-box">
             <section>
-                <a href="expedition-test.png" target="_blank"><img src="expedition-test.png" /></a>
-                <div>
-                    So, a $10 expedition ticket <iconify-icon class="purple" icon="heroicons:ticket-20-solid"></iconify-icon> = 10 minutes sketch of your character (shown in blue above). <br />
-                    For another ticket <iconify-icon class="purple" icon="heroicons:ticket-20-solid"></iconify-icon> i'll do second lines shown in black in the image above. <br />
-                    And lastly for a third ticket I'll place flat colors, also visible in the example.
-                    <br />
-                    Tickets will be available on the day.
-                    <a href="https://ko-fi.com/automaticspirit/commissions" class="kofipush" target="_blank">Tickets <iconify-icon icon="heroicons:ticket-20-solid" style="margin-bottom:-.13em"></iconify-icon> available here</a>
-                </div>
+                <h2 class="main_title">character's sketch request</h2>
+                <p class="-center">10 minutes sketch per ticket (additional 5 minutes if Auto's not satisfied) </p>
+                <article class="-flex">
+                    <div class="card -card_design_one">
+                    <h3 class="card_title"><strong>FIRST </strong>$10 expedition ticket <iconify-icon class="-purple" icon="heroicons:ticket-20-solid"></iconify-icon> </h3>
+                    <img class="-img_design_one" src="1st_ticket.png" width=261 height=388 alt="">
+                    <p class="card_explanation"><span class="-basic_font">Basic</span> character's sketch</p>
+                    </div>
+                    <div class="card -card_design_two">
+                    <h3 class="card_title" ><strong>SECOND</strong> $10 expedition ticket <iconify-icon class="-purple" 
+                    icon="heroicons:ticket-20-solid"></iconify-icon> </h3>
+                    <img class="-img_design_one" src="2nd_tickets.png" width=261 height=388 alt="">
+                    <p class="card_explanation"><span class="-intermediate_font">Second lines</span><br> on character's sketch</p>
+                    </div>
+                    <div class="card -card_design_three">
+                    <h3 class="card_title" ><strong>THIRD</strong> $10 expedition ticket <iconify-icon class="-purple" icon="heroicons:ticket-20-solid"></iconify-icon> </h3>
+                    <img class="-img_design_one" src="3rd_tickets.png" width=261 height=388 alt="">
+                    <p class="card_explanation"><span class="-advance_font">flat colors</span><br>on character's sketch </p>
+                    </div>
+                    <div class="card -card_design_four">
+                        <h3 class="card_title" ><strong>NEXT
+                        </strong> $10 expedition ticket <iconify-icon class="-purple" icon="heroicons:ticket-20-solid"></iconify-icon> </h3>
+                        <img class="-img_design_one" src="3rd_tickets.png" width=261 height=388 alt="">
+                        <p class="card_explanation"><span class="-elite_font">More details</span><br>on character's sketch </p>
+                        </div>
+                    </article>
+            </section>
+                <section id="reward">
+                    <h3><span class="reward_title">Raffle</span>(PS. More tickets purchased, higher chance for SSR digital prize)</h3>
+                     <p>There are 3 SSR prizes:</p>
+                     <article class="-flex">
+                     <div class="card -card_design_five">
+                        <h3 class="card_title"><strong>1 X SUPER RARE TICKET</strong><iconify-icon class="-golden" icon="heroicons:ticket-20-solid"></iconify-icon><span class="-shiny_effect"></span> </h3>
+                        <img class="-img_design_two" src="Raffle_one.png" width=261 height=388 alt=""> <p class="-card_font_design_one"><i>Evolve your ticket and Auto do what he can to make it a finished piece.</i></p>
+                    </div>
+                    <div class="card -card_design_five">
+                        <h3 class="card_title"><strong>1 X LINE ART TICKET</strong><iconify-icon class="-golden" icon="heroicons:ticket-20-solid"></iconify-icon><span class="-shiny_effect"></span> </h3>
+                        <img class="-img_design_two" src="Raffle_two.png" width=261 height=388 alt="">
+                        <p class="-card_font_design_one"><i> Complete your ticket to a finished lineart using Auto's styled brush.</i></p>
+                    </div>
+
+                    <div class="card -card_design_five">
+                        <h3 class="card_title"><strong>1 X CHIBI BY <a class="-cyan" href="https://twitter.com/lovelinalee"><iconify-icon icon="simple-icons:twitter"></iconify-icon>LOVELINALEE</a></strong><iconify-icon class="-golden" icon="heroicons:ticket-20-solid"></iconify-icon><span class="-shiny_effect"></span> </h3>
+                        <img class="-img_design_two" src="linalee_chibi_art.png" width=261 height=388 alt="">
+                        <p class="-card_font_design_one"><i> based on your ticket Lina will draw your chibi ! </i></p>
+                    </div>
+                </article>#
+                    The raffle should be happening at the end of the stream. You'll be contacted through wherever Auto can find you (probably whatever you used on Ko-fi).
+                </section>                    
+                <a href="https://ko-fi.com/automaticspirit/commissions" class="main_kofipush" target="_blank">Tickets <iconify-icon icon="heroicons:ticket-20-solid" style="margin-bottom:-.13em"></iconify-icon> available here</a>
                 <div class="important">
-                    <h3>Permissions</h3>
-                    <p>Some rules about the sketch-a-thon, and the things I'll be able to draw.</p>
+                    <h3 class="important_title">Ticket Rules</h3>
                     <ul>
-                        <li>1 $10 ticket <iconify-icon class="purple" icon="heroicons:ticket-20-solid"></iconify-icon> = 1 10minute sketch. There are add-ons to increase the amount of tickets, but you can also purchase another ticket.</li>
-                        <li>If it doesn't reach my own personal standard, I'll extend a piece to at most 5 more minutes.</li>
                         <li>You may purchase tickets on others' behalf.</li>
                         <li>Requests to draw nsfw art will politely denied.</li>
                         <li>Feel free to challenge be with art otherwise ! As long as it's safe to draw on stream it'll be okay. :) </li>
                     </ul>
                 </div>
-                <div id="rewards">
-                    <h3>Raffle</h3>
-                    Each ticket purchase puts you into a raffle for a digital illustration prize. <br />There are 3 prizes:
-                    <ul>
-                        <li><span>SUPER RARE TICKET</span> : I evolve your ticket and do what I can to make it a finished piece</li>
-                        <li><span>LINE ART TICKET</span> : I complete your ticket to a finished lineart using my styled brush.</li>
-                        <li><span>Chibi by <a href="https://twitter.com/lovelinalee"><iconify-icon icon="simple-icons:twitter"></iconify-icon>lovelinalee</a></span> : based on your ticket Lina will draw your chibi ! </li>
-                    </ul>
-                    The raffle should be happening at the end of the stream. You'll be contacted through wherever I can find you (probably whatever you used on Ko-fi).
-                </div>
-            </section>
             <section>
                 <div id="twitch-embed"></div>
             </section>
+        </main>
             <footer>
-                <div class="ex-links">
-                    <h6>exit-links</h6>
+                <div class="footer_ex-links">
+                    <h6 class="footer_title">exit-links</h6>
                     <a href="https://www.automaticspirit.com" title="homepage exit"><iconify-icon icon="akar-icons:home"></iconify-icon></a>
                     <a href="https://www.instagr.am/automaticspirit" title="instagram exit"><iconify-icon icon="simple-icons:instagram"></iconify-icon></a>
                     <a href="https://www.twitch.tv/automaticspirit" title="twitch"><iconify-icon icon="simple-icons:twitch"></iconify-icon></a>
@@ -162,16 +96,12 @@
                     <a href="https://discord.io/catsupontop" title="discord exit"><iconify-icon icon="simple-icons:discord"></iconify-icon></a>
                 </div>
             </footer>
-        </article>
-    </div>
-    <script>
-    </script>
     
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
     <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-    <script type="text/javascript">
+    <script>
       new Twitch.Embed("twitch-embed", {
         width: "100%",
         height: 420,
@@ -181,5 +111,12 @@
 //        parent: ["https://alpha-zero.github.io", "automaticspirit.com"]
       });
     </script>
+                <section id="forward">
+                    <p class="forward_explanation">
+                        Hello !<br>
+                        You made it ! I love drawing for friends and people I meet, and on the upcoming Catsup day stream (Friday September 3rd NZT) I'll be hosting a sketch-a-thon donation drive. This donation drive will be to sponsor mine and Catsup's upcoming merch, potential merch, and a well needed break this year. This will be an interesting experiment to see how viable this kind of event is for me in the future too. So if you're interested in supporting my art, and my future endevours, let me know by participating I'd really appreciate it, thank you!
+                        <span>&mdash; automaticspirit</span>
+                    </p>
+                </section>
 </body>
 </html>
